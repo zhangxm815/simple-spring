@@ -10,9 +10,5 @@
         <module name="simple-spring-aop" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="simple-spring-aop" target="1.8" />
-      <module name="simples-pring-beans" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
