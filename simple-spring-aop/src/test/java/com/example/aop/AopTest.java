@@ -2,7 +2,7 @@ package com.example.aop;
 
 import com.example.aop.advice.BeforeAdvice;
 import com.example.aop.proxy.SpringProxy;
-import com.example.aop.supper.MethodHolder;
+import com.example.aop.advice.MethodHolder;
 
 public class AopTest {
     public static void main(String[] args) {

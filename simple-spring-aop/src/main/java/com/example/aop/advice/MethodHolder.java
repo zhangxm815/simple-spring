@@ -1,4 +1,4 @@
-package com.example.aop.supper;
+package com.example.aop.advice;
 
 public interface MethodHolder {
     void invoke();

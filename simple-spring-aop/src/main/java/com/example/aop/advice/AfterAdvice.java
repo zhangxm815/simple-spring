@@ -1,7 +1,5 @@
 package com.example.aop.advice;
 
-import com.example.aop.supper.MethodHolder;
-
 import java.lang.reflect.Method;
 
 public class AfterAdvice implements Advice {

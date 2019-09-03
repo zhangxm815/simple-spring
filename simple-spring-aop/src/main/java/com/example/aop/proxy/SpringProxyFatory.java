@@ -15,7 +15,7 @@ public class SpringProxyFatory<T> {
     }
 
     public T getProxy() {
-        return (T) Proxy.newProxyInstance(SpringProxyFatory.class.getClassLoader(), target.getClass().getInterfaces(), advice);
+        return (T) Proxy.newProxyInstance(this.getClass().getClassLoader(), target.getClass().getInterfaces(), advice);
     }
 
 
